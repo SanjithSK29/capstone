@@ -1,0 +1,15 @@
+digraph TemporalSALT {
+  rankdir=LR;
+  "M_t" [shape=box];
+  "F_t" [shape=box];
+  "R_t" [shape=box];
+  "C_prev" [shape=box];
+  "C_t" [shape=ellipse];
+  "A_t" [shape=ellipse];
+  "M_t" -> "A_t";
+  "F_t" -> "A_t";
+  "R_t" -> "A_t";
+  "C_prev" -> "C_t";
+  "F_t" -> "C_t";
+  "C_t" -> "A_t";
+}

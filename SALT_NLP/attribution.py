@@ -128,5 +128,6 @@ def all_methods(table: Table, causes, hi: float = 0.5, lo: float = 0.25) -> dict
         but_for=but_for(table, causes, hi, lo),
         ablation=ablation(table, causes),
         shapley=shapley(table, causes),
+        hp=hp(table, causes, hi, lo),
         responsibility=responsibility(table, causes, hi, lo),
     )

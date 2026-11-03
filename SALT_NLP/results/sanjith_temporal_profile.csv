@@ -1,0 +1,4 @@
+cause,onset_effect,persistence_effect,temporal_change,overall_effect,classification
+M,0.0,0.0,0.0,0.0,inactive
+F,0.69,0.0,0.69,0.345,initiator_only
+R,0.0,0.0,0.0,0.0,inactive

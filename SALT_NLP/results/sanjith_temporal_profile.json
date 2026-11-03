@@ -1,0 +1,29 @@
+{
+  "source": "results_causal.md",
+  "rows": [
+    {
+      "cause": "M",
+      "onset_effect": 0.0,
+      "persistence_effect": 0.0,
+      "temporal_change": 0.0,
+      "overall_effect": 0.0,
+      "classification": "inactive"
+    },
+    {
+      "cause": "F",
+      "onset_effect": 0.69,
+      "persistence_effect": 0.0,
+      "temporal_change": 0.69,
+      "overall_effect": 0.345,
+      "classification": "initiator_only"
+    },
+    {
+      "cause": "R",
+      "onset_effect": 0.0,
+      "persistence_effect": 0.0,
+      "temporal_change": 0.0,
+      "overall_effect": 0.0,
+      "classification": "inactive"
+    }
+  ]
+}

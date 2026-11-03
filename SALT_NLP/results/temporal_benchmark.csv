@@ -1,0 +1,13 @@
+scenario,sample_size,repetitions,profile_exact_rate
+initiator_only,16,100,0.84
+initiator_only,32,100,0.93
+initiator_only,64,100,0.96
+maintainer_only,16,100,0.88
+maintainer_only,32,100,0.94
+maintainer_only,64,100,0.96
+both_stages,16,100,1.0
+both_stages,32,100,1.0
+both_stages,64,100,1.0
+inactive,16,100,0.83
+inactive,32,100,0.9
+inactive,64,100,0.95

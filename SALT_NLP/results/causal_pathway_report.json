@@ -1,0 +1,42 @@
+{
+  "model": "declared temporal SALT SCM",
+  "inputs": {
+    "M_t": 1,
+    "F_t": 1,
+    "R_t": 1,
+    "C_prev": 0
+  },
+  "pathway_rows": [
+    {
+      "cause": "M",
+      "total_effect": 0.0,
+      "direct_effect": 0.0,
+      "mediated_state_effect": 0.0,
+      "decomposition_error": 0.0
+    },
+    {
+      "cause": "F",
+      "total_effect": 0.69085,
+      "direct_effect": 0.0,
+      "mediated_state_effect": 0.69085,
+      "decomposition_error": 0.0
+    },
+    {
+      "cause": "R",
+      "total_effect": 0.0,
+      "direct_effect": 0.0,
+      "mediated_state_effect": 0.0,
+      "decomposition_error": 0.0
+    }
+  ],
+  "minimal_onset_prevention": [
+    [
+      "F_t"
+    ]
+  ],
+  "minimal_state_creation": [
+    [
+      "F_t"
+    ]
+  ]
+}

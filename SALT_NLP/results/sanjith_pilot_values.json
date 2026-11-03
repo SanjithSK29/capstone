@@ -1,0 +1,34 @@
+[
+  {
+    "episode": "ep1",
+    "factual": 1.0,
+    "minus_M": 1.0,
+    "minus_F": 0.31,
+    "minus_R": 1.0,
+    "minus_all": 0.25
+  },
+  {
+    "episode": "ep2",
+    "factual": 1.0,
+    "minus_M": 1.0,
+    "minus_F": 1.0,
+    "minus_R": 1.0,
+    "minus_all": 0.75
+  },
+  {
+    "episode": "ep3",
+    "factual": 1.0,
+    "minus_M": 1.0,
+    "minus_F": 1.0,
+    "minus_R": 1.0,
+    "minus_all": 1.0
+  },
+  {
+    "episode": "ep4",
+    "factual": 1.0,
+    "minus_M": 1.0,
+    "minus_F": 1.0,
+    "minus_R": 1.0,
+    "minus_all": 1.0
+  }
+]

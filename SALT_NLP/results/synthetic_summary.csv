@@ -1,0 +1,21 @@
+scenario,description,sample_size,repetitions,responsibility_exact_rate,responsibility_mean_absolute_error,but_for_exact_rate,ablation_exact_rate,shapley_exact_rate,hp_exact_rate
+single_feedback,one cause,8,100,0.0,0.33333333333333326,0.0,1.0,1.0,0.0
+single_feedback,one cause,16,100,0.87,0.11666666666666665,0.45,1.0,1.0,0.87
+single_feedback,one cause,32,100,1.0,0.008333333333333333,0.95,1.0,1.0,1.0
+single_feedback,one cause,64,100,1.0,0.0,1.0,1.0,1.0,1.0
+or_peer_feedback,redundant OR causes,8,100,0.0,0.6666666666666665,0.0,0.05,0.2,0.0
+or_peer_feedback,redundant OR causes,16,100,0.64,0.47388888888888886,0.0,0.06,0.09,0.65
+or_peer_feedback,redundant OR causes,32,100,0.99,0.3411111111111111,0.0,0.02,0.08,0.99
+or_peer_feedback,redundant OR causes,64,100,1.0,0.33333333333333326,0.0,0.02,0.05,1.0
+and_peer_feedback,joint AND causes,8,100,0.0,0.6666666666666665,0.0,0.58,0.32,0.0
+and_peer_feedback,joint AND causes,16,100,0.34,0.28,0.24,0.38,0.23,0.5
+and_peer_feedback,joint AND causes,32,100,0.9,0.016666666666666666,0.9,0.21,0.09,1.0
+and_peer_feedback,joint AND causes,64,100,1.0,0.0,1.0,0.16,0.12,1.0
+partial_feedback,"partial effect, like the pilot",8,100,0.0,0.33333333333333326,0.0,1.0,1.0,0.0
+partial_feedback,"partial effect, like the pilot",16,100,0.01,0.3322222222222222,0.0,1.0,1.0,0.01
+partial_feedback,"partial effect, like the pilot",32,100,0.03,0.325,0.02,1.0,1.0,0.03
+partial_feedback,"partial effect, like the pilot",64,100,0.01,0.33,0.01,1.0,1.0,0.01
+three_way_or,three redundant causes,8,100,0.0,1.0,0.0,0.0,0.07,0.0
+three_way_or,three redundant causes,16,100,0.45,0.8477777777777777,0.0,0.02,0.02,0.45
+three_way_or,three redundant causes,32,100,0.95,0.6833333333333332,0.0,0.01,0.01,0.95
+three_way_or,three redundant causes,64,100,1.0,0.6666666666666665,0.0,0.0,0.01,1.0

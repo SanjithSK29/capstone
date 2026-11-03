@@ -1,0 +1,384 @@
+{
+  "best_policies": {
+    "message_sensitive:onset": {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    "moderate_learning:onset": {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    "pilot_facing:onset": {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    "message_sensitive:persistence": {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    "moderate_learning:persistence": {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    "pilot_facing:persistence": {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    }
+  },
+  "rows": [
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "remove_peer_messages",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "remove_reflections",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "remove_all_context",
+      "cost": 3,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "onset",
+      "policy": "reset_state_and_feedback",
+      "cost": 2,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "remove_peer_messages",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "remove_reflections",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "remove_all_context",
+      "cost": 3,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "pilot_facing",
+      "stage": "persistence",
+      "policy": "reset_state_and_feedback",
+      "cost": 2,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "remove_peer_messages",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "remove_reflections",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "remove_all_context",
+      "cost": 3,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "onset",
+      "policy": "reset_state_and_feedback",
+      "cost": 2,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "remove_peer_messages",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "remove_reflections",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "remove_all_context",
+      "cost": 3,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "moderate_learning",
+      "stage": "persistence",
+      "policy": "reset_state_and_feedback",
+      "cost": 2,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "remove_peer_messages",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "remove_reflections",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "remove_all_context",
+      "cost": 3,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "onset",
+      "policy": "reset_state_and_feedback",
+      "cost": 2,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "remove_feedback",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "remove_peer_messages",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "remove_reflections",
+      "cost": 1,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "remove_all_context",
+      "cost": 3,
+      "state_after": 1,
+      "accept_after": 1,
+      "success": 0
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "reset_persistent_state",
+      "cost": 1,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    },
+    {
+      "parameter_set": "message_sensitive",
+      "stage": "persistence",
+      "policy": "reset_state_and_feedback",
+      "cost": 2,
+      "state_after": 0,
+      "accept_after": 0,
+      "success": 1
+    }
+  ]
+}
